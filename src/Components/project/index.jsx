@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
 import { Modal, ModalHeader, ModalBody } from 'reactstrap'
-import GenerateColors from './generate-color-&-pick'
 import ProjectNav from './project-nav'
 
 

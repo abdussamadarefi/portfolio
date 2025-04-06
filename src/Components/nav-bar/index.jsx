@@ -14,19 +14,19 @@ const Navbar = ({toggleProject, toggleSkills, toggleAbout})=> {
       <nav className={`${classes.navbarBottom} navbar p-0 m-0 navbar-nav navbar-expand-lg fixed-bottom`}>
         <div className="container-fluid ">
           <div className="d-flex ">
-                <a className={"navbar-brand p-0 "}  >
+                <a className={"navbar-brand p-0 "} href='#' >
                 <img width='35' className={classes.startButton} src={StartIcon} alt="" />
                 </a>
 
-                <a className="nav-link py-0 me-3" title='Projects' onClick={toggleProject}>
+                <a className="nav-link py-0 me-3" href='#' title='Projects' onClick={toggleProject}>
                 <img width='35' src={Projects} alt="" />
                 </a>
 
-                <a className="nav-link py-0 me-3" title='Skills' onClick={toggleSkills}>
+                <a className="nav-link py-0 me-3" href='#' title='Skills' onClick={toggleSkills}>
                 <img width='35' src={Skills} alt="" />
                 </a>
 
-                <a className="nav-link py-0 me-3" title='About'  onClick={toggleAbout}>
+                <a className="nav-link py-0 me-3" href='#' title='About'  onClick={toggleAbout}>
                 <img width='35' src={About} alt="" />
                 </a>
                 </div>

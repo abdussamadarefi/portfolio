@@ -1,9 +1,8 @@
 import React, { useState } from 'react'
 import {TabPane} from 'reactstrap'
-import PropTypes from 'prop-types'
 import LinkButton from './link-button'
 
-const GenerateColors = ({activeTab}) => {
+const GenerateColors = () => {
   return (
     <TabPane tabId="1">
     <h4 className='mb-2'>Color Generator: Generate color and pick</h4>
@@ -42,6 +41,5 @@ const GenerateColors = ({activeTab}) => {
   )
 }
 
-GenerateColors.propTypes = {}
 
 export default GenerateColors
