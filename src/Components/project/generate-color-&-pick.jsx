@@ -4,7 +4,7 @@ import LinkButton from './link-button'
 
 const GenerateColors = () => {
   return (
-    <TabPane tabId="1">
+    <TabPane tabId="3">
     <h4 className='mb-2'>Color Generator: Generate color and pick</h4>
         <div className='d-flex'>
             <LinkButton

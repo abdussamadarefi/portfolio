@@ -2,6 +2,7 @@ import React from 'react'
 import { Nav, NavItem, NavLink, TabContent } from 'reactstrap'
 import GenerateColors from './generate-color-&-pick'
 import Moveit from './moveit'
+import Portfolio from './portfolio'
 const ProjectNav = ({activeTab, toggleTab}) => {
   return (
     <div>
@@ -36,6 +37,7 @@ const ProjectNav = ({activeTab, toggleTab}) => {
         <GenerateColors/>
 
         <Moveit/>
+        <Portfolio/>
 
         </TabContent>
     </div>

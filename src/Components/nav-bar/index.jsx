@@ -9,6 +9,9 @@ import classes from './index.module.css'
 
 
 const Navbar = ({toggleProject, toggleSkills, toggleAbout})=> {
+  
+  
+  
     return (
       <nav className={`${classes.navbarBottom} navbar p-0 m-0 navbar-nav navbar-expand-lg fixed-bottom`}>
         <div className="container-fluid ">
@@ -31,7 +34,8 @@ const Navbar = ({toggleProject, toggleSkills, toggleAbout})=> {
                 </div>
 
                 <div className='ms-auto px-3 '>
-                   <span className='text-white m-0'>{new Date().toLocaleTimeString()}</span>
+
+                    <span className='text-white m-0'>{new Date().toLocaleTimeString()}</span>
                    <br />
                     <span className='text-white m-0'>{new Date().toLocaleDateString()}</span>
                 </div>
