@@ -1,5 +1,4 @@
 import React from 'react'
-import { Button } from 'reactstrap'
 import StartIcon from '../../Assets/icons/start-icon.png'
 import Projects from '../../Assets/icons/projects.png'
 import Skills from '../../Assets/icons/skills.png'
