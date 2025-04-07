@@ -28,6 +28,7 @@ const About =  ({isAboutOpen, toggleAbout}) =>{
           <LinkButton name='Facebook' className='btn-secondary' href={'https://facebook.com/abdussamadarefi/'} />
           <LinkButton name='Linkedin' href={'https://www.linkedin.com/in/muhammad-abdus-samad-6a4833219/'} color={'bg-primary'}/>
           <LinkButton name='Github' href={'https://github.com/abdussamadarefi'} color={'bg-gray'}/>
+          <LinkButton name='Email' href={'mailto:abdussamadarefi@gmail.com'} color={'bg-gray'}/>
           </div>
           
             <p className="lead">
